@@ -13,6 +13,13 @@ a {
   font-style: italic;
 }
 
+@media screen and (max-width:640px) {
+  .row.sqs-row {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+
 /* Teal Light scheme (Default) */
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
